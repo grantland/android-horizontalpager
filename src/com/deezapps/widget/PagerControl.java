@@ -22,7 +22,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -33,10 +32,7 @@ import android.view.animation.LinearInterpolator;
  * User: jeanguy@gmail.com
  * Date: Aug 11, 2010
  */
-public class PagerControl extends View
-{
-    private static final String TAG = "DeezApps.Widget.PagerControl";
-
+public class PagerControl extends View {
     private static final int DEFAULT_BAR_COLOR = 0xaa777777;
     private static final int DEFAULT_HIGHLIGHT_COLOR = 0xaa999999;
     private static final int DEFAULT_FADE_DELAY = 2000;
@@ -152,7 +148,7 @@ public class PagerControl extends View
     }
 
     /**
-     * 
+     *
      * @param canvas
      */
     @Override
