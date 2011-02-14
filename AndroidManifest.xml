@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.deezapps.widget">
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="8"
+        />
+
+    <application android:icon="@drawable/icon" android:label="widgets">
+        <activity android:name=".TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

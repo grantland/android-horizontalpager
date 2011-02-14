@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:deezapps="http://schemas.android.com/apk/res/com.deezapps.widget"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    >
+
+    <com.deezapps.widget.HorizontalPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        deezapps:pageWidth="250dip"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#0a0"
+            android:text="Text 1"
+            android:focusable="true"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#00a"
+            android:text="Text 2"
+            android:focusable="true"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Text 3"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#a00"
+            android:text="Text 4"
+            android:focusable="true"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#0aa"
+            android:text="Text 5"
+            android:focusable="true"
+            />
+
+    </com.deezapps.widget.HorizontalPager>
+
+    <com.deezapps.widget.PagerControl
+        android:id="@+id/control"
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:layout_margin="8dip"
+        deezapps:roundRectRadius="2dip"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="left"
+            />
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="right"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
