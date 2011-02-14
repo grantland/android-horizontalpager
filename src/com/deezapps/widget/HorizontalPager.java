@@ -16,7 +16,7 @@ package com.deezapps.widget;
  * limitations under the License.
  *
  * --
- * 
+ *
  * Based on http://android.git.kernel.org/?p=platform/packages/apps/Launcher.git;a=blob;f=src/com/android/launcher/Workspace.java
  *
  * Copyright (C) 2008 The Android Open Source Project
@@ -58,8 +58,7 @@ import java.util.Set;
  * User: jeanguy@gmail.com
  * Date: Aug 8, 2010
  */
-public class HorizontalPager extends ViewGroup
-{
+public class HorizontalPager extends ViewGroup {
     public static final String TAG = "DeezApps.Widget.HorizontalPager";
 
     private static final int INVALID_SCREEN = -1;
@@ -482,7 +481,7 @@ public class HorizontalPager extends ViewGroup
         snapToPage(whichPage);
     }
 
-    void snapToPage(int whichPage) {
+    public void snapToPage(int whichPage) {
         enableChildrenCache();
 
         boolean changingPages = whichPage != mCurrentPage;

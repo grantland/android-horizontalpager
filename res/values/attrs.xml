@@ -12,5 +12,5 @@
         <attr name="fadeDuration"    format="integer" />
         <attr name="roundRectRadius" format="dimension" />
     </declare-styleable>
-    
+
 </resources>
